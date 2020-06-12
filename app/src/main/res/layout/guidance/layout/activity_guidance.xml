@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actGuidance"
+    android:layout_width="1024dp"
+    android:layout_height="768dp"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvOpt"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="3dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTime"
+        app:layout_constraintTop_toBottomOf="@+id/tvTime" />
+
+    <fragment
+        android:id="@+id/fragPower"
+        android:name="com.sinano.rfidrccs.ui.frag.PowerFrag"
+        android:layout_width="138dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnG2M"
+        android:layout_width="79dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOpt" />
+
+    <TextView
+        android:id="@+id/tvQYLC"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/qysjlc"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragPower" />
+
+    <TextView
+        android:id="@+id/tvGHLC"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/ghsjlc"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvQYLC"
+        app:layout_constraintTop_toBottomOf="@+id/tvQYLC" />
+
+    <TextView
+        android:id="@+id/tvGLYXZ"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/glyxz"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvQYLC"
+        app:layout_constraintTop_toBottomOf="@+id/tvGHLC" />
+
+    <TextView
+        android:id="@+id/tvZYSX"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/zysx"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvGLYXZ"
+        app:layout_constraintTop_toBottomOf="@+id/tvGLYXZ" />
+
+    <!--<fragment
+        android:id="@+id/fragGuid"
+        android:name=""
+        android:layout_width="800dp"
+        android:layout_height="590dp"
+        app:layout_constraintStart_toEndOf="@+id/tvQYLC"
+        app:layout_constraintTop_toBottomOf="@+id/btnG2M" />-->
+
+    <TextView
+        android:id="@+id/tvAPPName"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="280dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvZYSX" />
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAPPName" />
+</android.support.constraint.ConstraintLayout>

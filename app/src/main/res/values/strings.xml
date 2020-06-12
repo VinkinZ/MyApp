@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">智能柜控</string>
+    <string name="title_cn">中国科学院苏州纳米技术与纳米仿生研究所</string>
+    <string name="title_en">Suzhou Institute of Nano-Tech and Nano-Bionics(SINANO), Chinese Academy of Sciences</string>
+    <string name="pro_name">智慧实验室试剂暂存库房(安全型存储柜)管控系统</string>
+
+    <string name="time">2019/01/01\t00:00\t周日</string>
+    <string name="operation">系统当前无人操作</string>
+
+    <string name="cabinet1">1号柜</string>
+    <string name="cabinet2">2号柜</string>
+    <string name="cabinet3">3号柜</string>
+    <string name="cabinet4">4号柜</string>
+    <string name="cabinet01">01号柜:</string>
+    <string name="cabinet02">02号柜:</string>
+    <string name="cabinet03">03号柜:</string>
+    <string name="cabinet04">04号柜:</string>
+    <string name="rc_ptx">普通型试剂柜</string>
+    <string name="rc_zrx">阻燃型试剂柜</string>
+    <string name="rc_kfsx">抗腐蚀型试剂柜</string>
+    <string name="rc_ydx">有毒型试剂柜</string>
+    <string name="rc_fbx">防爆型试剂柜</string>
+    <string name="rc_null">试剂柜未配置</string>
+
+    <string name="gxsj">更新时间</string>
+    <string name="ry">人员</string>
+    <string name="sjpm">试剂品名</string>
+    <string name="gh">柜号</string>
+    <string name="zt">状态</string>
+    <string name="yl">用量</string>
+    <string name="zl">重量/g</string>
+    <string name="jingshi">警示</string>
+    <string name="cf">错放</string>
+
+    <string name="yjry">预警人员</string>
+    <string name="yjxx">预警信息</string>
+    <string name="sj">时间</string>
+
+    <string name="gnsjlb">柜内试剂列表</string>
+    <string name="sjmc">试剂名称</string>
+    <string name="sjlx">试剂类型</string>
+    <string name="gg">规格</string>
+    <string name="zjl">主计量</string>
+    <string name="hh">货号</string>
+    <string name="cczl">残存\n重量/g</string>
+    <string name="scqyr">上次\n取用人</string>
+
+    <string name="qcsjlb">取出试剂列表</string>
+    <string name="zyr">在用人</string>
+    <string name="ghs">厂商</string>
+    <string name="qysj">取用时间</string>
+
+    <string name="sjzl">试剂总览</string>
+    <string name="wrksj">未入库试剂</string>
+    <string name="yrksj">已入库试剂</string>
+    <string name="ybfsj">已报废试剂</string>
+
+    <string name="gtzt">柜体状态</string>
+    <string name="wd">温度℃</string>
+    <string name="sd">湿度%</string>
+    <string name="nd">浓度ppm</string>
+
+    <string name="rylb">人员列表</string>
+    <string name="dw">单位</string>
+    <string name="bm">部门</string>
+    <string name="xm">姓名</string>
+    <string name="ARPh">ARP号</string>
+    <string name="juese">角色</string>
+    <string name="aqxyfz">安全信誉分值</string>
+    <string name="kjd">可见度</string>
+    <string name="qxjb">权限级别</string>
+
+    <string name="bfjl">报废记录</string>
+    <string name="rgsj">入柜时间</string>
+    <string name="czry">操作人员</string>
+    <string name="bfsj">报废时间</string>
+
+    <string name="fxjl">风险记录</string>
+    <string name="xgry">相关人员</string>
+    <string name="fxlx">风险类型</string>
+    <string name="fxjb">风险级别</string>
+    <string name="kffz">扣分分值</string>
+    <string name="zjddsj">最近掉电时间:</string>
+    <string name="zjsdsj">最近上电时间:</string>
+
+    <string name="sjrk">1.试剂入库</string>
+    <string name="sjrkt">试\t剂\t入\t库</string>
+    <string name="sjbf">2.试剂报废</string>
+    <string name="sjbft">试\t剂\t报\t废</string>
+    <string name="sjgsx">3.试剂柜属性</string>
+    <string name="sjgsxt">试\t剂\t柜\t属\t性</string>
+    <string name="dczdqyl">4.单次最大取用量</string>
+    <string name="qxzzdqyl">请选择单次最大取用量</string>
+    <string name="mrhcsjsj">5.每日核查试剂时间</string>
+    <string name="URLsz">6.URL设置</string>
+    <string name="URLszt">URL\t设\t置</string>
+    <string name="mhqpz">7.灭火器配置</string>
+    <string name="mhqpzt">灭\t火\t器\t配\t置</string>
+
+    <string name="qysjlc">取用流程</string>
+    <string name="ghsjlc">归还流程</string>
+    <string name="glyxz">管理员须知</string>
+    <string name="zysx">注意事项</string>
+
+    <string name="qsrglptURL">请输入管理平台URL</string>
+    <string name="qsrmhqpzURL">请输入灭火器配置URL</string>
+
+    <string name="sysypbmhq">实验室应配备灭火器</string>
+    <string name="sysxymhq">实验室现有灭火器</string>
+
+    <string name="wrksjcx">未入库试剂查询</string>
+    <string name="yrksjcx">已入库试剂查询</string>
+    <string name="ybfsjcx">已报废试剂查询</string>
+
+    <string name="dy">电源</string>
+    <string name="tx">通讯</string>
+
+    <string name="jcgx">检查更新</string>
+    <string name="dcdwj">导出到文件</string>
+
+    <string name="glyzyt">管\t理\t员\t专\t用</string>
+    <string name="sjcxt">试\t剂\t查\t询</string>
+
+    <string name="on">on</string>
+    <string name="off">off</string>
+</resources>

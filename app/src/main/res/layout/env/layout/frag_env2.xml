@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="831dp"
+    android:layout_height="600dp"
+    android:background="#00000000">
+
+    <LinearLayout
+        android:id="@+id/linelay1"
+        android:layout_width="91dp"
+        android:layout_height="75dp"
+        android:background="@color/blue3"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="91dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="@string/gxsj"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linelay2"
+        android:layout_width="741dp"
+        android:layout_height="40dp"
+        android:background="@color/blue3"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/linelay1"
+        app:layout_constraintTop_toTopOf="@+id/linelay1">
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="40dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/wsn1"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/cabinet1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="40dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/wsn2"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/cabinet2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="741dp"
+        android:layout_height="0.1dp"
+        android:background="#000000"
+        app:layout_constraintStart_toStartOf="@+id/linelay2"
+        app:layout_constraintTop_toBottomOf="@+id/linelay2" />
+
+    <LinearLayout
+        android:id="@+id/linelay3"
+        android:layout_width="741dp"
+        android:layout_height="35dp"
+        android:background="@color/blue3"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/linelay1"
+        app:layout_constraintTop_toBottomOf="@+id/linelay2">
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="40dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/wd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/sd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/nd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="40dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/wd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/sd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/nd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listEnv"
+        android:layout_width="832dp"
+        android:layout_height="520dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linelay3" />
+
+</android.support.constraint.ConstraintLayout>

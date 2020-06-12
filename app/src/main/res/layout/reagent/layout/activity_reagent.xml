@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actReagent"
+    android:layout_width="1024dp"
+    android:layout_height="768dp"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/tvAdm7Title"
+        android:layout_width="524dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="250dp"
+        android:gravity="center"
+        android:text="@string/sjcxt"
+        android:textColor="@color/red"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvOpt"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="3dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTime"
+        app:layout_constraintTop_toBottomOf="@+id/tvTime" />
+
+    <fragment
+        android:id="@+id/fragPower"
+        android:name="com.sinano.rfidrccs.ui.frag.PowerFrag"
+        android:layout_width="138dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnR2M"
+        android:layout_width="79dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="36dp"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOpt" />
+
+    <ImageButton
+        android:id="@+id/btnWRK"
+        android:layout_width="150dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="280dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/wrksjcx"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/btnWRK"
+        app:layout_constraintTop_toBottomOf="@+id/btnWRK" />
+
+    <ImageButton
+        android:id="@+id/btnYRK"
+        android:layout_width="150dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="60dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toEndOf="@+id/btnWRK"
+        app:layout_constraintTop_toTopOf="@+id/btnWRK" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/yrksjcx"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/btnYRK"
+        app:layout_constraintTop_toBottomOf="@+id/btnYRK" />
+
+    <ImageButton
+        android:id="@+id/btnYBF"
+        android:layout_width="150dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="60dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toEndOf="@+id/btnYRK"
+        app:layout_constraintTop_toTopOf="@+id/btnYRK" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/ybfsjcx"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/btnYBF"
+        app:layout_constraintTop_toBottomOf="@+id/btnYBF" />
+
+</android.support.constraint.ConstraintLayout>

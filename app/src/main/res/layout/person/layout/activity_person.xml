@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actPerson"
+    android:layout_width="1024dp"
+    android:layout_height="768dp"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvOpt"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="3dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTime"
+        app:layout_constraintTop_toBottomOf="@+id/tvTime" />
+
+    <fragment
+        android:id="@+id/fragPower"
+        android:name="com.sinano.rfidrccs.ui.frag.PowerFrag"
+        android:layout_width="138dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnP2M"
+        android:layout_width="79dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@null"
+        app:layout_constraintBottom_toTopOf="@+id/linelayPerson"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRYLB"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:gravity="center_vertical"
+        android:text="@string/rylb"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/fragPower"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linelayPerson"
+        android:layout_width="831dp"
+        android:layout_height="40dp"
+        android:background="@color/blue3"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/tvRYLB"
+        app:layout_constraintTop_toBottomOf="@+id/tvRYLB">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/dw"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="40dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/bm"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="40dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/xm"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="40dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/ARPh"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="40dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/juese"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="40dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/qxjb"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="40dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/aqxyfz"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listPerson"
+        android:layout_width="831dp"
+        android:layout_height="540dp"
+        app:layout_constraintStart_toStartOf="@+id/linelayPerson"
+        app:layout_constraintTop_toBottomOf="@+id/linelayPerson" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog2"
+    android:layout_width="600dp"
+    android:layout_height="400dp"
+    android:background="@drawable/bg_dialog">
+
+    <ImageView
+        android:id="@+id/imgDialog"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/icon_dialog"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDiaTitle"
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/imgDialog"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDiaMsg"
+        android:layout_width="600dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#0000AA"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewDiaLine1" />
+
+    <Button
+        android:id="@+id/btnDiaP"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_dialog"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewDiaLine2" />
+
+    <Button
+        android:id="@+id/btnDiaN"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/btn_dialog"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnDiaP" />
+
+    <View
+        android:id="@+id/viewDiaLine2"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="30dp"
+        android:background="#C0C0C0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDiaMsg" />
+
+    <View
+        android:id="@+id/viewDiaLine1"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="60dp"
+        android:background="#C0C0C0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

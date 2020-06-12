@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actAdm3"
+    android:layout_width="1024dp"
+    android:layout_height="768dp"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/tvAdm3Title"
+        android:layout_width="524dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="250dp"
+        android:gravity="center"
+        android:text="@string/sjgsxt"
+        android:textColor="@color/red"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/fragPower"
+        android:name="com.sinano.rfidrccs.ui.frag.PowerFrag"
+        android:layout_width="138dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgSLT"
+        android:layout_width="194dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="245dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgSD"
+        android:layout_width="109dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSLT" />
+
+    <TextView
+        android:id="@+id/tvSX"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/sjgsx"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/imgSD"
+        app:layout_constraintTop_toBottomOf="@+id/imgSD" />
+
+    <TextView
+        android:id="@+id/tvC1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:text="@string/cabinet1"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/imgSLT"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spin1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/tvC1"
+        app:layout_constraintTop_toTopOf="@+id/tvC1" />
+
+    <TextView
+        android:id="@+id/tvC2"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/cabinet2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/tvC1"
+        app:layout_constraintTop_toBottomOf="@+id/tvC1" />
+
+    <Spinner
+        android:id="@+id/spin2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/tvC2"
+        app:layout_constraintTop_toTopOf="@+id/tvC2" />
+
+    <TextView
+        android:id="@+id/tvC3"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/cabinet3"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/tvC2"
+        app:layout_constraintTop_toBottomOf="@+id/tvC2" />
+
+    <Spinner
+        android:id="@+id/spin3"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/tvC3"
+        app:layout_constraintTop_toTopOf="@+id/tvC3" />
+
+    <TextView
+        android:id="@+id/tvC4"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/cabinet4"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/tvC3"
+        app:layout_constraintTop_toBottomOf="@+id/tvC3" />
+
+    <Spinner
+        android:id="@+id/spin4"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/tvC4"
+        app:layout_constraintTop_toTopOf="@+id/tvC4" />
+
+    <ImageButton
+        android:id="@+id/btnA2A"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="40dp"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnExit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

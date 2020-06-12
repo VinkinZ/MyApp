@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/m_L22"
+    android:layout_width="460dp"
+    android:layout_height="35dp"
+    android:background="@color/blue4"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/m_yjry2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/yjry"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="0.1dp"
+        android:layout_height="40dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/m_yjxx2"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/yjxx"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="0.1dp"
+        android:layout_height="40dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/m_sj2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/sj"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

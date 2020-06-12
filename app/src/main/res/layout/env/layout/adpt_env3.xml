@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/i_L22"
+    android:layout_width="831dp"
+    android:layout_height="35dp"
+    android:background="@color/blue4"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/i_sj2"
+        android:layout_width="91dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/gxsj"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="0.1dp"
+        android:layout_height="40dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/i_t01"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet1"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/i_h01"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet1"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/i_v01"
+        android:layout_width="81dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet1"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="0.1dp"
+        android:layout_height="40dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/i_t02"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet2"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/i_h02"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet2"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/i_v02"
+        android:layout_width="81dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet2"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="0.1dp"
+        android:layout_height="40dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/i_t03"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet3"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/i_h03"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet3"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/i_v03"
+        android:layout_width="81dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet3"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="0.1dp"
+        android:layout_height="40dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/i_t04"
+        android:layout_width="61dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet4"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/i_h04"
+        android:layout_width="61dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet4"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/i_v04"
+        android:layout_width="61dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cabinet4"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

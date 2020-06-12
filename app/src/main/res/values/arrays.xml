@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cabsx">
+        <item>普通型</item>
+        <item>阻燃型</item>
+        <item>抗腐蚀型</item>
+        <item>防爆无浓度型</item>
+        <item>防爆型</item>
+        <item>有毒称重型</item>
+        <item>有毒不称重型</item>
+        <item>无配置</item>
+    </string-array>
+
+    <string-array name="maxout">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>
